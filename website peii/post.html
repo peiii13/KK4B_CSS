@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <title>formulir</title>
+</head>
+<body>
+    <form action="">
+        <center><h1>Pengisian Formulir</h1></center>
+        <fieldset style="position: relative; margin-left: 10%; margin-right: 10%;">
+            <legend style="margin: auto;">Input data</legend>
+            <table>
+            <pre>
+                <tr><td>Nama</td> <td>:</td> <td><input type="text" name="nama" placeholder="Nama lengkap" /></td></tr>
+                <tr><td>email</td> <td>:</td> <td><input type="email" name="email" placeholder="masukan alamat email" /></td></tr>
+                <tr><td>Password</td> <td>:</td> <td><input type="password" name="password" placeholder="Password" /></td></tr>
+                <tr><td>Tanggal Lahir</td> <td>:</td> <td><input type="date" name="tanggal" /></td></tr>
+                <tr><td>Jenis Kelamin</td> <td>:</td> <td><input type="radio" name="jenis kelamin" value="laki-laki" /> Laki-laki<input type="radio" name="jenis_kelamin" value="perempuan" /> Perempuan</td></tr>
+                <tr><td>Nomor Telepon</td> <td>:</td> <td><input type="number" name="Masukan Nomor Telepon"></td></tr>
+                <tr><td>Asal Kota</td> <td>:</td> <td><select name="Asal Kota">
+                    <option value="Purwokerto">Purwokerto</option>
+                    <option value="Cilacap">Cilacap</option>
+                    <option value="Banjar">Banjar</option>
+                    <option value="Surabaya">Surabaya</option>
+                </select></td></tr>
+                <tr><td>Alamat</td> <td>:</td> <td><textarea name="Alamat"></textarea></td></tr>
+                <tr><td>Hobby</td> <td>:</td> <td><input type="checkbox" name="hobi[]" value="1" />1. Membaca <input type="checkbox" name="hobi[]" value="3"/>3. Memasak <input type="checkbox" name="hobi[]" value="5"/>5. Bernyanyi<br /><input type="checkbox" name="hobi[]" value="2"/>2. Memancing <input type="checkbox" name="hobi[]" value="4" />4. Melukis <input type="checkbox" name="hobi[]" value="6" />6. Lainya<input type="text" name="hobi[]" value="" placeholder="Hobby lainya..." checked/><br /></td></tr>
+                <tr><td>Makanan favorit</td> <td>:</td> <td><input type="" name="nama" placeholder="Makanan favorit kalian.." /></td></tr>
+                <tr><td></td> <td></td> <td></td> <td></td> <td><input type="submit" name="submit" value="Daftar" /><input type="reset" name="submit" value="Reset" /></td></tr>
+            </pre>
+            </table>
+        </fieldset>
+    </form>
+
+</body>
+</html>
